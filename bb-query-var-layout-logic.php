@@ -33,7 +33,6 @@ add_action( 'bb_logic_enqueue_scripts', function() {
 
 } );
 
-// This isn't working as expected
 add_filter( 'query_vars', 'bb_query_rule_vars' );
 function bb_query_rule_vars( $vars ) {
 
