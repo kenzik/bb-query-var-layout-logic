@@ -11,7 +11,7 @@
 define( 'BB_QUERY_VAR_LAYOUT_LOGIC_DIR', plugin_dir_path( __FILE__ ) );
 define( 'BB_QUERY_VAR_LAYOUT_LOGIC_URL', plugins_url( '/', __FILE__ ) );
 
-// ?bblt=value_you_are_looking_for
+// ?bbtl=value_you_are_looking_for
 //
 define( 'BB_QUERY_VAR_LAYOUT_LOGIC_PARAM', 'bbtl' );
 
