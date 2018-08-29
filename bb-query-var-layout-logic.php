@@ -24,7 +24,7 @@ add_action( 'bb_logic_init', function() {
 add_action( 'bb_logic_enqueue_scripts', function() {
 
 	wp_enqueue_script(
-		'bb-logic-example-rules',
+		'bb-query-var-layout-logic-role',
 		BB_QUERY_VAR_LAYOUT_LOGIC_URL . 'js/rules.js',
 		array( 'bb-logic-core' ),
 		'1.0',
